@@ -1,0 +1,133 @@
+body {
+    background: url('img/background.jpg') top center #171717 no-repeat fixed;
+    color: #8c8c8c;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 1em;
+}
+p {
+    font-size: 0.8em;
+}
+#header {
+    width: 100%;
+    text-align: center;
+}
+#roster {
+    float: left;
+    text-align: left;
+}
+#teams {
+    float: right;
+    text-align: left;
+    margin-right: 10px;
+}
+#footer {
+    color: #3e3e3e;
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+    margin: 25px;
+}
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.team {
+    float: left;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+table {
+    background-color: #242424;
+    padding: 0px;
+    border-spacing: 0px;
+    border-width: 0 0 1px 1px;
+    border-color: #000;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+table tbody {
+    padding: 0px;
+}
+table tr {
+    padding: 0px;
+}
+table th {
+    text-align: left;
+    font-size: 0.8em;
+    color: #e6cc80;
+}
+table td {
+    background: url('img/tdbg1.jpg');
+    font-size: 0.7em;
+}
+table td, table th {
+    padding: 2px 7px;
+    margin: 0px;
+    min-width: 40px;
+    border-width: 1px 1px 0 0;
+    border-color: #000;
+    border-style: solid;
+    
+}
+table tr.even td {
+    background: url('img/tdbgeven.jpg');
+}
+table img.thumb {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+table.tablesorter thead tr .header {
+    background-image: url('img/bg.gif');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url('img/asc.gif');
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url('img/desc.gif');
+}
+div.team table {
+    min-width: 270px;
+}
+
+.clear {
+    clear: both;
+}
+
+.DeathKnight, a.DeathKnight {
+    color: #C41F3B;
+}
+.Druid, a.Druid {
+    color: #FF7D0A;
+}
+.Hunter, a.Hunter {
+    color: #ABD473;
+}
+.Mage, a.Mage {
+    color: #69CCF0;
+}
+.Monk, a.Monk {
+    color: #008467;
+}
+.Paladin, a.Paladin {
+    color: #F58CBA;
+}
+.Priest, a.Priest {
+    color: #fff;
+}
+.Rogue, a.Rogue {
+    color: #FFF569;
+}
+.Shaman, a.Shaman {
+    color: #0070DE;
+}
+.Warlock, a.Warlock {
+    color: #9482C9;
+}
+.Warrior, a.Warrior {
+    color: #C79C6E;
+}
